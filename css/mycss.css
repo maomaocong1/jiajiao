@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/beijing.gif");
+    position: relative;
+}
+
+.context {
+    top: 5px;
+    position: relative;
+    margin: auto;
+    width: 710px;
+    height: 100%;
+    background: white;
+}
+
+.head {
+    width: 710px;
+    height: 81px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.imglogo {
+    width: 180px;
+    height: 76px;
+    border: 0;
+    position: absolute;
+}
+
+#jiaoimg2 {
+    position: relative;
+    float: right;
+}
+
+.head ul {
+    position: relative;
+    list-style: none;
+    top: 15px;
+    left: 530px;
+    margin-right: 20px;
+
+}
+
+.head ul a:link {
+    color: deeppink;
+    text-decoration: none;
+}
+
+.head ul a:visited {
+    color: deeppink;
+    text-decoration: none;
+
+}
+
+.head ul li {
+    display: inline;
+    color: #ff0000;
+    font-size: 10px;
+
+}
+
+.contexttab {
+
+    white-space: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-variant: normal;
+    font-style: normal;
+    text-align: start;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 0px;
+    border-color: grey;
+    font-size: 12px;
+    text-decoration: none;
+    color: #333333;
+    padding: 5px 0 5px 1px;
+    margin-left: 36px;
+    margin-right: 36px;
+    /*width:637px;*/
+}
+
+.contexttab td {
+    border: 1px solid #cccccc;
+}
+
+.strong {
+    color: #000000;
+}
+
+.blue {
+    color: blue;
+}
+
+.red {
+    color: #ff0000;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.biaoti {
+    background-color: #eeeeee;
+    height: 22px;
+}
+
+th {
+    height: 56px;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    line-height: 150%;
+    font-size: 12px;
+}
+
+.titleinfo {
+    text-align: -webkit-center;
+    text-align: -moz-center;
+}
+
+#tatalinfo {
+    font-size: 18px;
+    font-weight: bold;
+    height: 58px;
+}
+
+.right {
+    text-align: right;
+}
